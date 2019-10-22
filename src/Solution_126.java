@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ * Leetcode 126
+ * https://leetcode-cn.com/problems/word-ladder-ii/
+ */
 public class Solution_126 {
     private Map<String, Set<String>> neighborMap;
 
@@ -20,8 +24,7 @@ public class Solution_126 {
         return results;
     }
 
-    private void dfs(Map<String, Set<String>> map, List<List<String>> results, String word, String endWord,
-                     List<String> result) {
+    private void dfs(Map<String, Set<String>> map, List<List<String>> results, String word, String endWord, List<String> result) {
         if (word.equals(endWord)) {
             results.add(new ArrayList<>(result));
             return;
@@ -36,6 +39,7 @@ public class Solution_126 {
         }
     }
 
+    // bfs构造邻居树，并做去重处理
     private void bfs(Map<String, Set<String>> map, String beginWord, String endWord) {
         boolean found = false;
         Set<String> marks = new HashSet<>();
