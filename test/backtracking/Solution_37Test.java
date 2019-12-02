@@ -1,3 +1,6 @@
+package backtracking;
+
+import backtracking.Solution_37;
 import org.junit.Test;
 
 public class Solution_37Test {

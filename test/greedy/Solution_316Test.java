@@ -1,3 +1,6 @@
+package greedy;
+
+import greedy.Solution_316;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

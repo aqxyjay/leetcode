@@ -1,3 +1,5 @@
+package greedy;
+
 /**
  * Leetcode 316
  * https://leetcode-cn.com/problems/remove-duplicate-letters/

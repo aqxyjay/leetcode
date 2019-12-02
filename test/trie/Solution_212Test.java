@@ -1,4 +1,7 @@
+package trie;
+
 import org.junit.Test;
+import trie.Solution_212;
 
 import java.util.ArrayList;
 import java.util.Arrays;
