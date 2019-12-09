@@ -1,5 +1,6 @@
-package array;
+package array.doublepoint;
 
+import array.doublepoint.Solution_259;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

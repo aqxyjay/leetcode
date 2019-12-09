@@ -1,4 +1,4 @@
-package array;
+package array.doublepoint;
 
 import java.util.Arrays;
 
